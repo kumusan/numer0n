@@ -2,15 +2,13 @@
 export function judge(com: number[], player: number[]) {
   const eat = getEat(com, player)
   const bite = getBite(com, player, eat)
-  //   } else if (com.indexOf(player[i]) >= 0) {
 
-  //      }
   console.log(`${eat}eat-${bite}bite`)
 
   // 3eatならtrueを返す
   if (eat === 3) return true
   return false
-}
+
 
 // eatを返す
 function getEat(com: number[], player: number[]): number {
