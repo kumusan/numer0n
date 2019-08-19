@@ -6,6 +6,7 @@ import {judge} from './judge'
 const com = random()
 console.log(com)
 
+// player
 for (;;) {
   const player_input = input()
   const player = inputSplit(player_input)
