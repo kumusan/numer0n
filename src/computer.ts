@@ -1,4 +1,6 @@
-// comの手
+/**
+ * comの手
+ */
 export function random(): number[] {
   const com: number[] = []
   while (com.length < 3) {
