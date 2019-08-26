@@ -4,7 +4,6 @@ import {judge} from './judge'
 
 // com
 const com = random()
-console.log(com)
 
 // player
 for (;;) {
